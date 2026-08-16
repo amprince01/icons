@@ -1,0 +1,9 @@
+# Mark common image files as binary to avoid text diffs and CRLF normalization
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+
+# SVG is text-based XML; keep normalized line endings
+*.svg text eol=lf
